@@ -31,6 +31,13 @@ Options: **Bold** options are required.
   If you don't supply a value, all pods in the namespace will be considered for
   deletion.
 
+## Extras
+
+In the [docker](./docker) folder, you will find an assortment of images that you
+can use to test different failure scenarios:
+
+* crash - An image that exits with non-zero exit status after `CRASH_DELAY` seconds.
+
 ## Disclaimer
 
 This repo is pretty immature. Expect the possibility of breaking changes.
